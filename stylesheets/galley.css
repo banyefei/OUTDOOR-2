@@ -1,6 +1,7 @@
 .wrapper{
 	background:#f6f8f8;
 	width: 100%;
+	max-width: 1360px;
 }
 h2{
 	color:black;
