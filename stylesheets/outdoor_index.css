@@ -1,0 +1,35 @@
+.wrapper{
+	width:100%;
+	color:white;
+	text-align: center;
+}
+
+.main{
+	width:100%;
+	height:625px;
+	padding-bottom: 20px;
+}
+.scenic{
+	background:url(../img/scenic-aperture-1.jpg)no-repeat top center;	
+	background-position: -400px -400px;
+}
+.main-h1{
+	font-size: 40px;
+	padding-top: 320px;
+}
+.main-p{
+	font-size: 18px;
+}
+
+.night{
+	background:white url(../img/Ancient-Arch-and-Milky-Way-in-the-Alabama-Hills-of-CA_Rowell.jpg)no-repeat top center;
+	background-size: 1300px 700px;
+}
+.intimately{
+	background:white url(../img/black-justin-greenland-1.jpg)no-repeat top center;
+	background-size: 1300px 700px;
+}
+.new{
+	background:white url(../img/lead.jpg)no-repeat top center;
+	background-size: 1300px 700px;
+}
