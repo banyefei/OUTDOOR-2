@@ -1,0 +1,130 @@
+.wrapper{
+	background:#f6f8f8;
+	width: 100%;
+}
+h2{
+	color:black;
+	line-height:80px;
+}
+p{
+	line-height: 25px;	
+	color:#575a5b;
+}
+a{
+	color: #575a5b;
+}
+
+.back-f{
+	background:black;
+	width:750px;
+}
+.feature{
+	text-align:center;
+	width:750px;
+	height:400px;
+	margin-bottom: 15px;
+	background:url(../img/Josh-Miller-Alsek-30.jpg) rgba(0, 0, 0, 0.1);
+}
+.feature:hover{
+	opacity: 0.5;
+}
+.more-f{
+	padding: 10px 20px;
+	background: rgba(0, 0, 0, 0.4);
+	border: 2px solid rgba(255, 255, 255, 0.4);
+	border-radius: 40px;
+	width: 200px;
+	margin: 170px auto;
+}
+.more-f:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+	border-color:rgba(255, 255, 255, 0.6) ;
+}
+.feature:hover .none{
+	display:inline-block;
+}
+.read{
+	margin-top:10px ;
+	text-align: center;
+	padding:8px 10px;
+	background: #589b6e;
+	border-radius: 10px;
+}
+.more-story{
+	margin-top:10px ;
+	color: black;
+	text-align: center;
+	padding: 8px 10px;
+	border:1px solid black;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.place{
+	margin-bottom: 20px;
+}
+.module{
+	width: 350px;
+	background: white;
+}
+.pl-b{
+	width: 350px;
+	height: 250px;
+	background: black;
+}
+.pic{
+	text-align:center;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 15px;
+}
+.grass{
+	background:url(../img/seanfitzgerald_150624_9791_web.jpg);
+	background-size: 116%;
+}
+.pic:hover{
+	opacity: 0.5;
+}
+.pic:hover .none{
+	display: block;
+}
+.creek{
+	background:url(../img/lead-2.jpg);
+	background-size: 100%;
+}
+.more-o{
+	position: relative;
+	top: 105px;
+	padding: 10px 20px;
+	background: rgba(0, 0, 0, 0.5);
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-radius: 40px;
+	width: 100px;
+	margin: 0px auto;
+}
+.more-o:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+	border-color:rgba(255, 255, 255, 0.5) ;
+}
+.paradise{
+	background: url(../img/paradise-824x1098.jpg);
+	background-size: 60%;
+}
+.alaska{
+	background: url(../img/miller-josh-everymans-6.jpg);
+	background-size: 111%;
+}
+.international{
+	background: url(../img/2955461.jpg);
+	background-size: 111%;
+}
+.na{
+	background: url(../img/northamerica.jpg);
+	background-size: 111%;
+}
+.banner{
+	width: 728px;
+	height: 90px;
+	border: 10px solid white;
+	margin: 15px auto;
+	max-width: 748px;
+}
