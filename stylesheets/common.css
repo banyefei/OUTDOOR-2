@@ -1,0 +1,267 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
+body{background:#fff;color:#333;font-size:12px; margin-top:5px;font-family:"SimSun","宋体","Arial Narrow";}  
+ul,ol{list-style-type:none;} 
+select,input,img,select{vertical-align:middle;}  
+a{text-decoration:none;color: white;}
+li{
+	list-style: none;
+	list-style-position:outside;
+}
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+			display:block;
+			visibility:hidden;
+			clear:both;
+			content:"";
+			line-height: 0;
+}
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+.margin-auto{
+	margin: 0 auto;
+}
+.wrapper{
+	width:100%;
+	color:white;
+	text-align: center;
+}
+.header{
+	width: 100%;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.6)
+}
+.login{
+	margin: 0 auto;
+	width:70%;
+	height:120px;
+}
+.logo-main{
+	max-height:60px;
+	padding: 30px;
+	margin-left: 15%;
+}
+.loginbar{
+	float: right;
+	position: relative;
+	top: 45px;
+	padding: 6px 20px;
+	font-size: 12px;
+	border: 2px solid rgba(123, 125, 134, 0.6);
+	border-radius: 20px;
+}
+.loginbar:hover{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.nav{
+	width:100%;
+	height:50px;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.4);
+}
+.in-blo{
+	display: inline-block;
+}
+
+.nav-li-1{
+	display: inline-block;
+	position: absolute;
+	top:135px;
+	left:150px;
+}
+.nav-li-2{
+	display: inline-block;
+	position: absolute;
+	top:135px;
+	left:300px;
+}
+.nav-li-3{
+	display: inline-block;
+	position: absolute;
+	top:135px;
+	left:500px;
+}
+.nav-li-4{
+	display: inline-block;
+	position: absolute;
+	top:135px;
+	left:695px;
+}
+.nav-li-5{
+	display: inline-block;
+	position: absolute;
+	top:135px;
+	left:880px;
+}
+.nav-li-6{
+	display: inline-block;
+	position: absolute;
+	top:135px;
+	left:975px;
+}
+.subnav{
+	position: absolute;
+	display:none;
+	background: red;
+	margin-top: 15px;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.4);
+	border-top: 1px solid white;
+}
+
+ul.in-blo>li:hover .subnav{
+	display: block;
+}
+.footer-brand{
+	font-size: 12px;
+	padding: 25px 20px;
+	color: #a5a6a7;
+	background: #43484d;
+}
+.logo-foot{
+	max-height: 56px;
+}
+.footer{
+    background: #2d3033;
+    padding: 80px 0 100px 0;
+    color: #a5a6a7;
+    font-size: 15px;
+    text-align: left;
+}
+.footer-left{
+	float: left;
+	width:28%;
+	margin-left:8%;
+}
+.connect{
+	float: left;
+	width: 25%;
+}
+.footer-right{
+	overflow: hidden;
+	padding-left: 50px;
+}
+.subscribe{
+	width:100px;
+	text-align: center;
+	padding:10px;
+	background: #589b6e;
+	border-radius: 10px;
+}
+.footer-padding{
+	padding: 0px 20px 20px 0px;
+}
+.book-img{
+	padding-right: 10px;
+	max-height:180px;
+}
+.more{
+	padding: 10px 20px;
+	background: rgba(0, 0, 0, 0.4);
+	border: 2px solid rgba(255, 255, 255, 0.4);
+	border-radius: 40px;
+	width: 200px;
+	margin: 30px auto;
+}
+.more:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+	border-color:rgba(255, 255, 255, 0.6) ;
+}
+.none{
+	display:none;
+}
+.size-30{
+	font-size: 30px;
+}
+.paddingl-20{
+	padding-left: 20px;
+}
+.paddingt-35{
+	padding-top: 35px;
+}
+.paddingb-35{
+	padding-bottom:35px;
+}
+.marginb-30{
+	margin-bottom: 30px;
+}
+.on-header{	
+	position:scroll;
+	width: 100%;
+	background:url(../img/banner-header-short.jpg) rgba(0, 0, 0, 0.6);
+}
+.home{
+	padding-left: 50px;
+	text-align: left;
+	line-height: 40px;
+	background-color: white;
+	color:#babeba;
+}
+.home-a{
+	padding: 10px;
+	color:#7e807e;
+}
+.on-r{
+	float: right;
+	width: 400px;
+}
+.orb{
+	border:10px solid white;
+}
+.lineheight-100{
+	line-height: 100px;
+}
+.news{
+	padding-bottom: 35px;
+	line-height:30px;
+}
+.lineheight-30{
+	line-height:30px;
+}
+.on-l{
+	margin-right:-500px;
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+.marginl-50{
+	margin-left:50px;
+}
+.summary{
+	width: 750px;
+}
+.color-1{
+	color: #a0a2a3;
+}
+.color-b{
+	color: black;
+}
+.logo-login{
+	display: none;
+	position: absolute;
+	top: 120px;
+	right: 50%;
+	padding: 20px;
+	background:#444;
+	border-radius:10px;
+	color: white;
+	font-size: 22px;
+	width:200px;
+}
+.loginbar:hover .logo-login{
+	display:block;
+}
+.button-log{
+	width: 80px;
+	height:30px;
+}
+.in-lo{
+	width:200px;
+	height:30px;
+	border: 1px solid white;
+}
